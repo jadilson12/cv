@@ -14,7 +14,7 @@
                 </v-list>
             </v-menu>
         </v-flex>
-        <v-flex id="full">
+        <v-flex id="full" >
             <v-btn-toggle  v-model="selected" class="menu-full" borderless mandatory>
                 <v-btn >Sobre</v-btn>
                 <v-btn >Habilidades</v-btn>

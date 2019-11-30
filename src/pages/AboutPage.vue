@@ -1,0 +1,79 @@
+<template>
+    <v-container text-xs-center class="about-page width-limit-800">
+        <!-- Basic Info -->
+        <basic-info-bar-row id="row"></basic-info-bar-row>
+        <basic-info-bar-col id="col"></basic-info-bar-col>
+
+        <!-- Divider  -->
+        <v-container class="divider-container" pa-0 pt-3 pb-3>
+            <v-divider></v-divider>
+        </v-container>
+
+        <!-- Bio  -->
+        <v-card flat v-for="item in bio.content" :key="item" class="transparent">
+            <v-card-text class="no-space">{{ item }}</v-card-text>
+        </v-card>
+
+        <!-- Buttons  -->
+        <v-row class="justify-center">
+            <v-tooltip top>
+                <v-btn icon flat :href="bio.github" target="_blank" slot="activator" pa-0 ma-0>
+                    <i class="fab fa-github"></i>
+                </v-btn>
+                <span>Veja meu perfil GitHub</span>
+            </v-tooltip>
+            <v-tooltip top>
+                <v-btn icon flat :href="bio.linkedin" target="_blank" slot="activator" pa-0 ma-0>
+                    <i class="fab fa-linkedin"></i>
+                </v-btn>
+                <span>Veja meu perfil LinkedIn</span>
+            </v-tooltip>
+        </v-row>
+
+    </v-container>
+</template>
+
+<script>
+    import BasicInfoBarCol from "../components/bar/BasicInfoBarRow";
+    import BasicInfoBarRow from "../components/bar/BasicInfoBarCol";
+    import { profile } from '../api/data'
+    export default {
+        name: "about",
+        data: () => {
+            return {
+                bio: profile.bio
+            };
+        },
+        components: {
+            BasicInfoBarRow,
+            BasicInfoBarCol
+        }
+    };
+</script>
+<style>
+    @media (min-width: 651px) {
+        #row {
+            display: block;
+            max-width: 600px;
+        }
+        #col {
+            display: none;
+        }
+    }
+    @media (min-width: 0px) and (max-width: 650px) {
+        #row {
+            display: none;
+        }
+        #col {
+            display: block;
+        }
+    }
+    .about-page {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .no-space {
+        padding-top: 0px;
+        padding-bottom: 16px;
+    }
+</style>

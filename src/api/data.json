@@ -1,4 +1,41 @@
 {
+  "profile" : {
+    "basic": [
+      {
+       "title": "Nome completo:",
+        "content": "Jadilson Brandão Guedes"
+      },
+      {
+        "title": "Data de Nascimento:",
+        "content": "22 Abril 1989"
+      },
+      {
+        "title": "E-mail:",
+        "content": "jadilson12@gmail.com"
+      }
+    ],
+    "additional": [
+      {
+        "title": "Cidade:",
+        "content": "Valparaiso De Goias - GO"
+      },
+       {
+         "title": "Situação:",
+         "content": "Estagiando"
+       }
+    ],
+    "bio" : {
+        "title": "Bio",
+        "content": [
+            "Cursando bacharelado em Sistemas de Informação pela UNIDESC.",
+            "Sou apaixonado por solucionar problemas, tenho determinação positiva em relação a vida",
+            "Sempre busco novos desafios, com ética de trabalho, gosto de bons resultado, com comprometimento nas atividades que são de minha resposabilidades, sou entusiasta gosto de ouvir muita musicas.",
+            "Minha capacidade de resolver problema é aplicada toda minha vida, estou continuamente em buscam de novos conhecimento.Sou defessor do auto aperfeiçoamento e estou sempre buscando melhoria na minha saúde física e mental"
+         ],
+        "github": "https://github.com/jadilson12",
+        "linkedin": "https://www.linkedin.com/in/jadilson12/"
+    }
+  },
   "education":
     {
       "gaduacao": [
