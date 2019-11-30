@@ -7,14 +7,14 @@
       </v-layout>
     </v-container>
     <transition name="slide-fade">
-      <v-container v-if="enter" pl-0 pr-0>
+      <v-container v-if="enter" pl-0 pr-0 pb-2>
         <v-layout column>
-          <v-toolbar flat class="transparent" fixed text-center  height="160px">
+          <v-app-bar flat color="#eeeeee" text-center fixed app height="160px">
             <v-layout column>
               <name-bar v-if="enter"></name-bar>
               <title-bar key="title" @changePage="change"></title-bar>
             </v-layout>
-          </v-toolbar>
+          </v-app-bar>
           <v-content>
             <page-show :pressed="pageButton"></page-show>
           </v-content>
@@ -43,7 +43,7 @@ export default {
     return {
       no: "none",
       enter: false,
-      pageButton: "formacao",
+      pageButton: "about",
       scroll: true
     };
   },

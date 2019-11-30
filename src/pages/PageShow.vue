@@ -2,17 +2,20 @@
     <v-container flat grid class="page">
         <transition name="fade" mode="out-in">
             <formacao-page v-if="pressed==='formacao'"></formacao-page>
+            <about-page v-if="pressed==='about'"></about-page>
         </transition>
     </v-container>
 </template>
 
 <script>
+    import AboutPage from "./AboutPage";
     import FormacaoPage from "./FormacaoPage";
 
     export default {
         name: "page-show",
         props: ["pressed"],
         components: {
+            AboutPage,
             FormacaoPage
         }
     };
