@@ -16,7 +16,7 @@
             </v-layout>
           </v-toolbar>
           <v-content>
-<!--            mostar as paginas-->
+            <page-show :pressed="pageButton"></page-show>
           </v-content>
         </v-layout>
       </v-container>
@@ -28,6 +28,7 @@
 import NameBar from './components/bar/NameBar'
 import EnterBar from './components/bar/EnterBar'
 import TitleBar from './components/bar/TitleBar'
+import PageShow from "./pages/PageShow";
 
 
 export default {
@@ -36,12 +37,13 @@ export default {
     NameBar,
     EnterBar,
     TitleBar,
+    PageShow
     },
   data() {
     return {
       no: "none",
       enter: false,
-      pageButton: "about",
+      pageButton: "formacao",
       scroll: true
     };
   },
@@ -50,8 +52,6 @@ export default {
       this.scroll = window.pageYOffset === 0;
     },
     enterCV() {
-      // eslint-disable-next-line no-console
-      console.log('asas')
       this.enter = true;
     },
     change(prop) {
@@ -66,7 +66,7 @@ export default {
           this.pageButton = "experience";
           break;
         case 3:
-          this.pageButton = "education";
+          this.pageButton = "formacao";
           break;
         default:
           this.pageButton = null;

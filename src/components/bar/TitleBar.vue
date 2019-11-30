@@ -8,19 +8,18 @@
                     </v-btn>
                 </template>
                 <v-list>
-                    <v-list-item v-for="item in menuItems" :key="item.title"   @click="select(item)"
-                    >
+                    <v-list-item v-for="item in menuItems" :key="item.title"   @click="select(item)">
                       <v-list-item-title class="mr-2">{{ item.title }}</v-list-item-title>
                     </v-list-item>
                 </v-list>
             </v-menu>
         </v-flex>
-        <v-flex id="full" class="transparent">
-            <v-btn-toggle flat v-model="selected" class="transparent" borderless mandatory>
-                <v-btn class="mr-2" flat >Sobre</v-btn>
-                <v-btn class="mr-2" flat>Habilidades</v-btn>
-                <v-btn class="mr-2" flat>Esperiêcias</v-btn>
-                <v-btn class="mr-2" flat>Formação</v-btn>
+        <v-flex id="full">
+            <v-btn-toggle  v-model="selected" class="menu-full" borderless mandatory>
+                <v-btn >Sobre</v-btn>
+                <v-btn >Habilidades</v-btn>
+                <v-btn >Esperiêcias</v-btn>
+                <v-btn >Formação</v-btn>
             </v-btn-toggle>
         </v-flex>
     </v-container>
@@ -63,19 +62,11 @@
                 this.selected = item.number;
                 this.menuName = ` ${item.title}`;
             },
-            onSmallScreen() {
-                if (window.innerWidth > 1000) {
-                    this.screenSize = false;
-                } else {
-                    this.screenSize = true;
-                }
-            }
         }
     };
 </script>
 
 <style>
-    /* Media Queries */
     @media (min-width: 651px) {
         #full {
             display: block;
@@ -95,30 +86,25 @@
             display: block;
         }
     }
-
     /* Button Restyling */
-    .theme--light .btn-toggle {
-        background: none;
+    .theme--light .v-btn-toggle {
+      background: none;
     }
-
-    .btn-toggle--selected {
-        box-shadow: none;
+    .v-btn-toggle--selected {
+      box-shadow: none;
     }
-
-    .btn__content {
-        font-weight: 300;
-        font-size: 20px;
+    .v-btn__content {
+      font-weight: 300;
+      font-size: 20px;
     }
-
-    .btn--active .btn__content:before,
-    .btn:focus .btn__content:before,
-    .btn:hover .btn__content:before {
-        background-color: none;
-        outline: black;
+    .btn--active .v-btn__content:before,
+    .btn:focus .v-btn__content:before,
+    .btn:hover .v-btn__content:before {
+      background-color: initial;
+      outline: black;
     }
-
     .title {
-        padding: 0;
-        margin: 0;
+      padding: 0;
+      margin: 0;
     }
 </style>
