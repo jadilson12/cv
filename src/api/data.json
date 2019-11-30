@@ -1,0 +1,22 @@
+{
+  "education":
+    {
+      "gaduacao": [
+        {
+          "institution": "Unidesc",
+          "year": "Janeiro de 2017 - Dezembro de 2020",
+          "description": "Bacharelado em Sistemas de Informação",
+          "additional": "Faculdade com nota 3 no MEC",
+          "logo": "logo"
+        }
+      ],
+      "certificacao": [
+        {
+          "institution": "SCRUM",
+          "year": "2019",
+          "description": "National Senior Certificate",
+          "additional": "---"
+        }
+      ]
+    }
+}
