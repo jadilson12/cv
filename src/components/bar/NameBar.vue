@@ -1,9 +1,7 @@
-<!-- Name Bar -->
-
 <template>
-  <v-container class="name-container" text-center>
-    <h1 id="small">{{ initials }}</h1>
-    <h1 id="full">{{ name }}</h1>
+  <v-container class="name-container pb-0 mb-0"  text-center >
+    <h1 id="small" v-text="initials"></h1>
+    <h1 id="full" v-text="name"></h1>
     <v-divider></v-divider>
   </v-container>
 </template>
@@ -21,8 +19,8 @@ export default {
 </script>
 
 <style>
-/* Media Queries */
-@media (min-width: 651px) {
+
+@media (min-width: 697px) {
   #small {
     display: none;
   }
@@ -31,7 +29,7 @@ export default {
   }
 }
 
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 696px) {
   #full {
     display: none;
   }
@@ -41,8 +39,13 @@ export default {
 }
 
 .name-container {
-  padding-bottom: 0;
-  padding-top: 0;
-
+  padding: 0;
+  margin: 0;
+  max-width: 642px !important;
+}
+.divider{
+  width: 60%;
+  display: flex;
+  justify-content: center;
 }
 </style>

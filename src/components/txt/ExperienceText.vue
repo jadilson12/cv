@@ -1,29 +1,24 @@
 <template>
-  <v-container class="width-limit-800 text-xs-left" pa-0 pt-2 pb-2>
+  <v-container class="width-limit-800 text-left pa-0 pt-2 pb-2">
     <v-layout column>
       <!-- Header -->
       <v-flex>
         <v-layout row>
-          <h3 class="subhead">{{ header }}</h3>
+          <h3 class="subhead" v-text="header"></h3>
         </v-layout>
       </v-flex>
-      <!-- Description -->
       <v-flex text-align-left>
-        <ul>{{ content.description }}</ul>
+        <ul v-text="content.description"></ul>
       </v-flex>
-      <!-- Tech Chips -->
-      <v-flex row>
-        <!-- <v-tooltip top> -->
+      <v-flex row class="subhead">
         <v-chip
-                v-for="(item, index) in content.techUsed"
-                :key="item.title"
-                @click.native="show(item.content, index)"
-                slot="activator"
-                :input-value="item.show"
+              v-for="(item, index) in content.techUsed"
+              :key="item.title"
+              @click.native="show(item.content, index)"
+              slot="activator"
+              :input-value="item.show"
         >{{ item.title }}
         </v-chip>
-        <!-- <span>{{ item.content }}</span> -->
-        <!-- </v-tooltip> -->
       </v-flex>
       <v-flex pt-2>
         <transition name="fade">
@@ -53,7 +48,6 @@
         },
         methods: {
             show(item, index) {
-                // mimic toggle
                 this.clearSelect();
                 if (this.showItem && this.showItemContent === item) {
                     this.showItem = false;
@@ -91,5 +85,7 @@
   .fade-leave {
     opacity: 1;
   }
+  .subhead {
+    margin-left: 10px;
+  }
 </style>
-© 2019 GitHub, Inc.

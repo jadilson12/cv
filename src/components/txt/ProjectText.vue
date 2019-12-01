@@ -8,21 +8,19 @@
         </v-layout>
       </v-flex>
       <!-- Info -->
-      <v-layout row>
+      <v-layout row class="subhead">
         <v-flex text-align-left pr-1>
-          <ul class="italic">{{ content.institution }}</ul>
+          <ul class="italic subhead">{{ content.institution }}</ul>
           <ul>{{ content.description }}</ul>
         </v-flex>
-        <!-- External Repo Link -->
-        <v-tooltip top>
+        <v-tooltip top class="subhead">
           <v-btn icon flat :href="content.link" slot="activator" target="_blank">
-<!--            <img src="../../assets/GitHub-Mark-32px.png" size="16px">-->
+            <i class="fab fa-github"></i>
           </v-btn>
           <span>View project repo</span>
         </v-tooltip>
       </v-layout>
-      <!-- Tech Chips -->
-      <v-flex row>
+      <v-flex row >
         <v-chip
                 v-for="(item, index) in content.techUsed"
                 :key="item.title"
@@ -53,7 +51,6 @@
         },
         methods: {
             show(item, index) {
-                // mimic toggle
                 this.clearSelect();
                 if (this.showItem && this.showItemContent === item) {
                     this.showItem = false;
@@ -73,6 +70,8 @@
     };
 </script>
 <style>
+
+  
   /* Transitions */
   .fade-enter-active {
     transition: opacity 0.5s;

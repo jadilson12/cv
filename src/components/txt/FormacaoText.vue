@@ -1,5 +1,5 @@
 <template>
-    <v-container class="width-limit-500 text-xs-left" pa-0 pt-2>
+    <v-container class="width-limit-500 text-left pa-0 pt-2" >
         <v-layout column>
             <!-- Header -->
             <v-flex>

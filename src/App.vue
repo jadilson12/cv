@@ -12,7 +12,7 @@
           <v-app-bar flat color="#eeeeee" text-center fixed app height="160px">
             <v-layout column>
               <name-bar v-if="enter"></name-bar>
-              <title-bar key="title" @changePage="change"></title-bar>
+              <title-bar  key="title" @changePage="change"></title-bar>
             </v-layout>
           </v-app-bar>
           <v-content>
