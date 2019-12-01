@@ -1,5 +1,5 @@
 <template>
-    <v-container flat class="title" text-center>
+    <v-container class="title" text-center>
         <v-flex id="small">
             <v-menu offset-y>
                 <template v-slot:activator="{ on }">

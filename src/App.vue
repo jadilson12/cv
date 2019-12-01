@@ -7,7 +7,7 @@
       </v-layout>
     </v-container>
     <transition name="slide-fade">
-      <v-container v-if="enter" pl-0 pr-0 pb-2>
+      <v-container  v-if="enter" pl-0 pr-0 pb-2>
         <v-layout column>
           <v-app-bar flat color="#eeeeee" text-center fixed app height="160px">
             <v-layout column>
@@ -60,7 +60,7 @@ export default {
           this.pageButton = "about";
           break;
         case 1:
-          this.pageButton = "skills";
+          this.pageButton = "habilidades";
           break;
         case 2:
           this.pageButton = "experience";
