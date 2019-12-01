@@ -10,11 +10,9 @@
     export default {
         name: "enter-bar",
         methods: {
-            enter(){
+            enter() {
                 this.$emit("enter")
             }
         }
     };
 </script>
-<style>
-</style>

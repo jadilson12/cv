@@ -1,31 +1,27 @@
 <template>
   <v-container class="about-page">
     <v-layout>
-      <!-- Avatar -->
       <v-flex>
         <v-avatar size="200px">
           <img src="https://avatars2.githubusercontent.com/u/36805474" alt="">
         </v-avatar>
       </v-flex>
-      <!-- Text Info -->
       <v-container>
         <v-layout column>
-          <!-- Basic Info -->
           <v-flex>
             <info-text
-                    v-for="item in basic"
-                    :key="item.title"
-                    :title="item.title"
-                    :content="item.content"
+              v-for="item in basic"
+              :key="item.title"
+              :title="item.title"
+              :content="item.content"
             ></info-text>
           </v-flex>
-          <!-- Additional Info -->
           <v-flex>
             <info-text
-                    v-for="item in additional"
-                    :key="item.title"
-                    :title="item.title"
-                    :content="item.content"
+              v-for="item in additional"
+              :key="item.title"
+              :title="item.title"
+              :content="item.content"
             ></info-text>
           </v-flex>
         </v-layout>
@@ -40,14 +36,10 @@
 
     export default {
         name: "basic-info-bar-col",
-        data() {
-            return {
-                basic: profile.basic,
-                additional: profile.additional
-            };
-        },
-        components: {
-            InfoText
-        }
+        components: {InfoText},
+        data: () => ({
+            basic: profile.basic,
+            additional: profile.additional
+        })
     };
 </script>

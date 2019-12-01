@@ -1,11 +1,9 @@
 <template>
     <v-container class="width-limit-500 text-left pa-0 pt-2" >
         <v-layout column>
-            <!-- Header -->
             <v-flex>
                 <h3 class="subhead">{{ header }}</h3>
             </v-flex>
-            <!-- Content -->
             <v-flex text-align-left>
                 <ul>{{ content.description }}</ul>
                 <ul class="italic">{{ content.additional }}</ul>
@@ -20,7 +18,7 @@ export default {
     props: ["content"],
     computed: {
         header() {
-            return `${this.content.institution} | ${this.content.year}`;
+            return `${this.content.name} | ${this.content.year}`;
         },
         logoLink() {
             // not used at this point

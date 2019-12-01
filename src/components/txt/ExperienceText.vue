@@ -1,16 +1,15 @@
 <template>
-  <v-container class="width-limit-800 text-left pa-0 pt-2 pb-2">
+  <v-container  text-left class="pl-0">
     <v-layout column>
-      <!-- Header -->
       <v-flex>
         <v-layout row>
-          <h3 class="subhead" v-text="header"></h3>
+          <h3 class="pl-3" v-text="header"></h3>
         </v-layout>
       </v-flex>
       <v-flex text-align-left>
-        <ul v-text="content.description"></ul>
+        <ul class="pl-0" v-text="content.description"></ul>
       </v-flex>
-      <v-flex row class="subhead">
+      <v-flex row class="justify-center" >
         <v-chip
               v-for="(item, index) in content.techUsed"
               :key="item.title"
@@ -22,7 +21,7 @@
       </v-flex>
       <v-flex pt-2>
         <transition name="fade">
-          <ul class="italic" v-if="showItem">{{ showItemContent }}</ul>
+          <ul class="italic"  v-if="showItem" v-text="showItemContent"></ul>
         </transition>
       </v-flex>
     </v-layout>
@@ -35,7 +34,7 @@
         props: ["content"],
         computed: {
             header() {
-                return `${this.content.title} | ${this.content.company} | ${
+                return `${this.content.title} \n| ${this.content.company} | ${
                     this.content.date
                 }`;
             }
@@ -67,6 +66,8 @@
     };
 </script>
 <style>
+
+
   /* Transitions */
   .fade-enter-active {
     transition: opacity 0.5s;
@@ -84,8 +85,5 @@
   .fade-enter-to,
   .fade-leave {
     opacity: 1;
-  }
-  .subhead {
-    margin-left: 10px;
   }
 </style>

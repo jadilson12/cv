@@ -1,5 +1,5 @@
 {
-  "name": "cv",
+  "name": "cv-jbg",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -51,7 +51,5 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ],
-  "deploy": "node ./node_modules/vue-gh-pages/index.js",
-  "wst": "/dist/"
+  ]
 }

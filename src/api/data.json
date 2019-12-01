@@ -1,5 +1,7 @@
 {
   "profile" : {
+    "name": "Jadilson Brandão Guedes",
+    "abv": "JBG",
     "basic": [
       {
        "title": "Nome completo:",
@@ -21,7 +23,7 @@
       },
        {
          "title": "Situação:",
-         "content": "Estagiando"
+         "content": "Estagiando | Buscando CLT"
        }
     ],
     "bio" : {
@@ -39,19 +41,31 @@
   "education": {
       "gaduacao": [
         {
-          "institution": "Unidesc",
           "year": "Janeiro de 2017 - Dezembro de 2020",
           "description": "Bacharelado em Sistemas de Informação",
-          "additional": "Faculdade com nota 3 no MEC",
+          "name": "Unidesc - Centro Universitário De Desenvolvimento Do Centro-Oeste",
+          "additional": "Cursando o antes penúltimo semestre",
           "logo": "logo"
         }
       ],
       "certificacao": [
         {
-          "institution": "SCRUM",
+          "name": "Scrum Foundation Professional Certicate (SFPC)",
           "year": "2019",
-          "description": "National Senior Certificate",
-          "additional": "---"
+          "institution": "CertiProf",
+          "additional": "Códico de validação: 31553456852191"
+        },
+        {
+          "name": "Campus Party Brasília 2019 | BSB3",
+          "year": "2019",
+          "institution": "Campus Party Brasil",
+          "additional": "Códico de validação: dc67fe6a6df3409abf9c0b98c4171fe5"
+        },
+        {
+          "name": "Full stack com Laravel",
+          "year": "2019",
+          "institution": "Udemy",
+          "additional": "Códico de validação: UC-MHSN610E "
         }
       ]
     },
@@ -311,7 +325,7 @@
   "projects": [
     {
       "title": "Teste Vocacional",
-      "institution": "UNIDESC",
+      "institution": "Unidesc - Centro Universitário De Desenvolvimento Do Centro-Oeste",
       "link": "https://github.com/gepittes/unidesc-vocacional",
       "description":"Um teste que é usando todos anos pela a instituição durante a feira de profissões.framework , PHP, Mysql, HTML5, CSS,Bootstrap, Javascript, Jquery e outras tecnologias",
 
@@ -330,7 +344,7 @@
     },
     {
       "title": "DoaFacil",
-      "institution": "UNIDESC",
+      "institution": "Unidesc - Centro Universitário De Desenvolvimento Do Centro-Oeste",
       "link": "https://github.com/gepittes/doafacil",
       "description":"Atender, Divulgar e Propagar Instituições Filantrópicas, Pontos de Doação e Eventos por meio de uma plataforma web.",
       "techUsed": [
@@ -406,5 +420,23 @@
         }
       ]
     }
-  ]
+  ],
+  "menu": [
+  {
+    "title": "Sobre mim",
+    "number": 0
+  },
+  {
+    "title": "Habilidades",
+    "number": 1
+  },
+  {
+    "title": "Esperiêcias",
+    "number": 2
+  },
+  {
+    "title": "Formação",
+    "number": 3
+  }
+]
 }

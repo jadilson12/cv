@@ -1,6 +1,5 @@
 <template>
   <v-container class="about-page">
-    <!-- Avatar -->
     <v-container class="pt-0 pb-0">
       <v-layout row>
         <v-flex text-center>
@@ -8,15 +7,24 @@
             <img src="https://avatars2.githubusercontent.com/u/36805474" alt="">
           </v-avatar>
         </v-flex>
-        <!-- Basic Info -->
         <v-flex>
           <v-container pt-4>
-            <info-text
-                    v-for="item in basic"
-                    :key="item.title"
-                    :title="item.title"
-                    :content="item.content"
-            ></info-text>
+            <v-flex>
+              <info-text
+                v-for="item in basic"
+                :key="item.title"
+                :title="item.title"
+                :content="item.content"
+              ></info-text>
+            </v-flex>
+            <v-flex>
+              <info-text
+                v-for="item in additional"
+                :key="item.title"
+                :title="item.title"
+                :content="item.content"
+              ></info-text>
+            </v-flex>
           </v-container>
         </v-flex>
       </v-layout>
@@ -30,14 +38,10 @@
 
     export default {
         name: "basic-info-bar-row",
-        data() {
-            return {
-                basic: profile.basic,
-                additional: profile.additional
-            };
-        },
-        components: {
-            InfoText
-        }
+        components: {InfoText},
+        data: () => ({
+            basic: profile.basic,
+            additional: profile.additional
+        })
     };
 </script>
