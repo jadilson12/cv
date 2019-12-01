@@ -55,5 +55,258 @@
           "additional": "---"
         }
       ]
+    },
+  "skillsInitial": [
+    {
+      "title": "Vue.js e relacionados",
+      "content": [
+        "Desenvolvimento de front end usando Vue.js",
+        "Manipulação de solicitação HTTP usando o Vue Axios",
+        "Gerenciamento de estado de aplicativo usando Vuex",
+        "Roteamento de página usando o Vue Router",
+        "Vuetify como uma estrutura de design de material com personalização",
+        "Exposição a transições e animações no Vue.js"
+      ],
+      "tags": [
+        "Vue.js",
+        "Vuex",
+        "Vue-Axios",
+        "Vuetify",
+        "Vue-Router",
+        "HTML5 and CSS",
+        "SPA"
+      ]
+    },
+    {
+      "title": "Angular e relacionados",
+      "content": [
+        "Desenvolvimento de front end usando Angular",
+        "Gerenciamento de estado de aplicativo usando NgRx",
+        "Roteamento de página usando o module routing",
+        "Material-io, primeng como uma estrutura de design de material com personalização"
+      ],
+      "tags": ["Angular", "Angular Router", "NgRx", "Material UI", "TypeScript", "SPA"]
+    },
+    {
+      "title": "Node.js e relacionados",
+      "content": [
+        "Desenvolvimento usando o Node.js e seu ecossistema de pacotes (npm)",
+        "Exposição a pacotes e estruturas como nodemon, Express, gulp e Babel",
+        "Manipulação de banco de dados usando Mysql e MongoDB"
+      ],
+      "tags": [
+        "Node.js",
+        "Javascript/ES5/6/7/8",
+        "Express",
+        "Babel",
+        "MongoDB"
+      ]
+    },
+    {
+      "title": "HTTP e WebSockets",
+      "content": [
+        "Desenvolvimento de comunicação de socket e mensagens em real-time",
+        "Uso de socket para comunicação assíncrona"
+      ],
+      "tags": ["HTTP", "WebSockets"]
+    },
+    {
+      "title": "Events",
+      "content": [
+        "Uso do EventEmitter por herança em classes personalizadas",
+        "Familiarizado com emitters e listeners client-server"
+      ],
+      "tags": ["EventEmitter"]
+    },
+    {
+      "title": "Aplicativos da Web progressivos",
+      "content": [
+        "Desenvolvimento de um PWA usando o Vue CLI (este aplicativo da web)"
+      ],
+      "tags": [
+        "Vue.js",
+        "Vuex",
+        "Vue-Axios",
+        "Vuetify",
+        "Vue-Router",
+        "HTML5 and CSS"
+      ]
+    },
+    {
+      "title": "Algoritmos de computação",
+      "content": [
+        "Estudo de implementações básicas de programação dinâmica",
+        "Estudo aplicando o metodo dividido para Conquistar ou de Força Bruta"
+      ],
+      "tags": ["Algoritmos"]
+    },
+    {
+      "title": "Programação e encadeamento simultâneos",
+      "content": [
+        "Desenvolvimento de simulações básicas de encadeamento",
+        "Understanding of Parallelism and Concurrency"
+      ],
+      "tags": ["Concorrência"]
+    },
+    {
+      "title": "Software Design Patterns",
+      "content": [
+        "Familizado com Scrum, Agile",
+        "Estudo de arquiteturas de aplicativos de software",
+        "Exposição de design patterns (Layered, Repository, Client-Server etc)"
+      ],
+      "tags": ["Design Patterns"]
+    },
+    {
+      "title": "Java, Java Swing",
+      "content": [
+        "Conclusão de todos os cursos universitários Java",
+        "Desenvolvimento de uma GUI básica de jogo usando Swing"
+      ],
+      "tags": ["Java", "Java Swing"]
+    },
+    {
+      "title": "Python",
+      "content": ["Análise básica de números e programação de E/S de linha de comando"],
+      "tags": ["Python"]
     }
+  ],
+  "skills": [
+    {
+      "title": "Node.js",
+      "pressed": false
+    },
+    {
+      "title": "Javascript/ES5/6/7",
+      "pressed": false
+    },
+    {
+      "title": "Git",
+      "pressed": false
+    },
+    {
+      "title": "Docker",
+      "pressed": false
+    },
+    {
+      "title": "Django",
+      "pressed": false
+    },
+    {
+      "title": "WebSockets",
+      "pressed": false
+    },
+    {
+      "title": "HTTP",
+      "pressed": false
+    },
+    {
+      "title": "EventEmitter",
+      "pressed": false
+    },
+    {
+      "title": "Babel",
+      "pressed": false
+    },
+    {
+      "title": "Express",
+      "pressed": false
+    },
+    {
+      "title": "Laravel",
+      "pressed": false
+    },
+    {
+      "title": "REST",
+      "pressed": false
+    },
+    {
+      "title": "React",
+      "pressed": false
+    },
+    {
+      "title": "Redux",
+      "pressed": false
+    },
+    {
+      "title": "React Router",
+      "pressed": false
+    },
+    {
+      "title": "Vue.js",
+      "pressed": false
+    },
+    {
+      "title": "Vuex",
+      "pressed": false
+    },
+    {
+      "title": "Vuetify",
+      "pressed": false
+    },
+    {
+      "title": "Vue-Axios",
+      "pressed": false
+    },
+    {
+      "title": "Vue-Router",
+      "pressed": false
+    },
+    {
+      "title": "HTML5 and CSS",
+      "pressed": false
+    },
+    {
+      "title": "Google Material Design",
+      "pressed": false
+    },
+    {
+      "title": "PWA",
+      "pressed": false
+    },
+    {
+      "title": "SPA",
+      "pressed": false
+    },
+    {
+      "title": "Mysql",
+      "pressed": false
+    },
+    {
+      "title": "MariaDB",
+      "pressed": false
+    },
+    {
+      "title": "postgresql",
+      "pressed": false
+    },
+    {
+      "title": "C",
+      "pressed": false
+    },
+    {
+      "title": "Java",
+      "pressed": false
+    },
+    {
+      "title": "Python",
+      "pressed": false
+    },
+    {
+      "title": "Java Swing",
+      "pressed": false
+    },
+    {
+      "title": "Spring",
+      "pressed": false
+    },
+    {
+      "title": "algoritmos",
+      "pressed": false
+    },
+    {
+      "title": "Design Patterns",
+      "pressed": false
+    }
+  ]
 }
