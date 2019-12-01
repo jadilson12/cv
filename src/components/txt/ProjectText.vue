@@ -71,7 +71,7 @@
 </script>
 <style>
 
-  
+
   /* Transitions */
   .fade-enter-active {
     transition: opacity 0.5s;
