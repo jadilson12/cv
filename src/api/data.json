@@ -36,8 +36,7 @@
         "linkedin": "https://www.linkedin.com/in/jadilson12/"
     }
   },
-  "education":
-    {
+  "education": {
       "gaduacao": [
         {
           "institution": "Unidesc",
@@ -307,6 +306,105 @@
     {
       "title": "Design Patterns",
       "pressed": false
+    }
+  ],
+  "projects": [
+    {
+      "title": "Teste Vocacional",
+      "institution": "UNIDESC",
+      "link": "https://github.com/gepittes/unidesc-vocacional",
+      "description":"Um teste que é usando todos anos pela a instituição durante a feira de profissões.framework , PHP, Mysql, HTML5, CSS,Bootstrap, Javascript, Jquery e outras tecnologias",
+
+      "techUsed": [
+        {
+          "title": "Laravel",
+          "content": "Utilizou o framework  laravel com todos seu Design Patterns que oferece toda tecnologia básica por trás do projeto.",
+          "show": false
+        },
+        {
+          "title": "composer",
+          "content": "Utilizado pela aplicação fornecendo um formato padrão para gerenciar dependências do software PHP.",
+          "show": false
+        }
+      ]
+    },
+    {
+      "title": "DoaFacil",
+      "institution": "UNIDESC",
+      "link": "https://github.com/gepittes/doafacil",
+      "description":"Atender, Divulgar e Propagar Instituições Filantrópicas, Pontos de Doação e Eventos por meio de uma plataforma web.",
+      "techUsed": [
+        {
+          "title": "Lumen",
+          "content": "Utilizou o framework  laravel com todos seu Design Patterns que oferece toda tecnologia básica por trás do projeto.",
+          "show": false
+        },
+        {
+          "title": "composer",
+          "content": "Utilizado pela aplicação fornecendo um formato padrão para gerenciar dependências do software PHP.",
+          "show": false
+        },
+        {
+          "title": "Vue.js",
+          "content":
+          "Utilizou a CLI do Vue com o Node.js como a tecnologia básica por trás do projeto. O aplicativo é empacotado usando o Webpack.",
+          "show": false
+        },
+        {
+          "title": "Vuex",
+          "content": "sa",
+          "show": false
+        },
+        {
+          "title": "Vuetify",
+          "content": "Vuetify como uma estrutura de design de material com personalização",
+          "show": false
+        },
+        {
+          "title": "Vue-Axios",
+          "content":
+          "Usado como a biblioteca do client HTTP, implementando solicitações HTTP baseadas em Promise.",
+          "show": false
+        },
+        {
+          "title": "Node.js",
+          "content":
+          "O back-end do aplicativo foi desenvolvido usando o ecossistema de pacotes npm e o ES6/7",
+          "show": false
+        },
+        {
+          "title": "Babel",
+          "content": "Usado para transpilar o ES6 para o código compatível com o navegador",
+          "show": false
+        },
+        {
+          "title": "Postgresql",
+          "content": "Manipulação de banco de dados",
+          "show": false
+        }
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "title": "Estágio/ Desenvolvedor Web",
+      "company": "Defensoria Pública da União",
+      "date": "Junho 2019 - Presente",
+      "description": "Criando e mantido o sistema full stack",
+      "techUsed": [
+        {
+          "title": "Javascript/ES7",
+          "content": "Familiazado com syntax"
+        },
+        {
+          "title": "Bootstrap",
+          "content": "Framework  de CSS"
+        },
+        {
+          "title": "Mysql",
+          "content": "Manipulação de banco de dados"
+        }
+      ]
     }
   ]
 }

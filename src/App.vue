@@ -63,7 +63,7 @@ export default {
           this.pageButton = "habilidades";
           break;
         case 2:
-          this.pageButton = "experience";
+          this.pageButton = "experienca";
           break;
         case 3:
           this.pageButton = "formacao";

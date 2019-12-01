@@ -4,6 +4,7 @@
       <formacao-page v-if="pressed==='formacao'"></formacao-page>
       <about-page v-if="pressed==='about'"></about-page>
       <skills-page v-if="pressed==='habilidades'"></skills-page>
+      <experience-page v-if="pressed==='experienca'"></experience-page>
     </transition>
   </v-container>
 </template>
@@ -12,6 +13,7 @@
     import AboutPage from "./AboutPage";
     import FormacaoPage from "./FormacaoPage";
     import SkillsPage from "./SkillsPage";
+    import ExperiencePage from "./ExperiencePage";
 
     export default {
         name: "page-show",
@@ -19,7 +21,8 @@
         components: {
             SkillsPage,
             AboutPage,
-            FormacaoPage
+            FormacaoPage,
+            ExperiencePage
         }
     };
 </script>
