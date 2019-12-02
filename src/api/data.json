@@ -9,7 +9,7 @@
       },
       {
         "title": "Data de Nascimento:",
-        "content": "22 Abril 1989"
+        "content": "Abril - 1989"
       },
       {
         "title": "E-mail:",
@@ -19,7 +19,7 @@
     "additional": [
       {
         "title": "Cidade:",
-        "content": "Valparaiso De Goias - GO"
+        "content": "Brasilia - DF"
       },
        {
          "title": "Situação:",
@@ -30,9 +30,8 @@
         "title": "Bio",
         "content": [
             "Cursando bacharelado em Sistemas de Informação pela UNIDESC.",
-            "Sou apaixonado por solucionar problemas, tenho determinação positiva em relação a vida",
-            "Sempre busco novos desafios, com ética de trabalho, gosto de bons resultado, com comprometimento nas atividades que são de minha resposabilidades, sou entusiasta gosto de ouvir muita musicas.",
-            "Minha capacidade de resolver problema é aplicada toda minha vida, estou continuamente em buscam de novos conhecimento.Sou defessor do auto aperfeiçoamento e estou sempre buscando melhoria na minha saúde física e mental"
+            "Sou apaixonado por solucionar problemas, sempre buscando novos desafios, com ética de trabalho e bons resultados, com comprometimento nas atividades estabelecidas, gosto de trabalhar em equipe porque justo conseguimos chegar rapidamente nos objetivos, sou entusiasta.",
+            "Minha capacidade de resolver problema é aplicada toda minha vida, estou continuamente em buscam de novos conhecimento.Sou defessor do auto aperfeiçoamento e estou sempre buscando melhoria na minha saúde física e mental."
          ],
         "github": "https://github.com/jadilson12",
         "linkedin": "https://www.linkedin.com/in/jadilson12/"
@@ -43,7 +42,7 @@
         {
           "year": "Janeiro de 2017 - Dezembro de 2020",
           "description": "Bacharelado em Sistemas de Informação",
-          "name": "Unidesc - Centro Universitário De Desenvolvimento Do Centro-Oeste",
+          "name": "UNIDESC - Centro Universitário De Desenvolvimento Do Centro-Oeste",
           "additional": "Cursando o antes penúltimo semestre",
           "logo": "logo"
         }
@@ -53,19 +52,7 @@
           "name": "Scrum Foundation Professional Certicate (SFPC)",
           "year": "2019",
           "institution": "CertiProf",
-          "additional": "Códico de validação: 31553456852191"
-        },
-        {
-          "name": "Campus Party Brasília 2019 | BSB3",
-          "year": "2019",
-          "institution": "Campus Party Brasil",
-          "additional": "Códico de validação: dc67fe6a6df3409abf9c0b98c4171fe5"
-        },
-        {
-          "name": "Full stack com Laravel",
-          "year": "2019",
-          "institution": "Udemy",
-          "additional": "Códico de validação: UC-MHSN610E "
+          "additional": ""
         }
       ]
     },
@@ -91,6 +78,40 @@
       ]
     },
     {
+      "title": "Laravel e relacionados",
+      "content": [
+        "Desenvolvimento de back-end usando Laravel",
+        "Manipulação de depedência com composer",
+        "Gerenciamento de ORM com eloquent",
+        "Gerenciamento de migration, middleware e router",
+        "Usando controller e  router no modelo resource",
+        "Criação de web-services com rest autentificação no modelo oauth2"
+      ],
+      "tags": [
+        "Laravel",
+        "orm",
+        "Composer",
+        "Rest",
+        "migration",
+        "HTML5 and CSS",
+        "SPA"
+      ]
+    },
+    {
+      "title": "Utilização da Ferramenta Git",
+      "content": [
+        "Manipulação de versionamento git",
+        "Trabalhando com issues, pull request"
+      ],
+      "tags": [
+        "Git",
+        "git-flow",
+        "github",
+        "gitlab",
+        "open-source"
+      ]
+    },
+    {
       "title": "Angular e relacionados",
       "content": [
         "Desenvolvimento de front end usando Angular",
@@ -98,21 +119,20 @@
         "Roteamento de página usando o module routing",
         "Material-io, primeng como uma estrutura de design de material com personalização"
       ],
-      "tags": ["Angular", "Angular Router", "NgRx", "Material UI", "TypeScript", "SPA"]
+      "tags": ["Angular", "Angular Router", "NgRx", "Material UI", "TypeScript", "SPA", "Bootstrap", "EventEmitter"]
     },
     {
       "title": "Node.js e relacionados",
       "content": [
         "Desenvolvimento usando o Node.js e seu ecossistema de pacotes (npm)",
         "Exposição a pacotes e estruturas como nodemon, Express, gulp e Babel",
-        "Manipulação de banco de dados usando Mysql e MongoDB"
+        "Manipulação de banco de dados usando Mysql"
       ],
       "tags": [
         "Node.js",
         "Javascript/ES5/6/7/8",
         "Express",
-        "Babel",
-        "MongoDB"
+        "Babel"
       ]
     },
     {
@@ -124,12 +144,20 @@
       "tags": ["HTTP", "WebSockets"]
     },
     {
+      "title": "Docker e Docker-Composer",
+      "content": [
+        "Criação e utilização de container docker",
+        "Uso de socket para comunicação assíncrona"
+      ],
+      "tags": ["Docker", "Docker-Composer"]
+    },
+    {
       "title": "Events",
       "content": [
         "Uso do EventEmitter por herança em classes personalizadas",
         "Familiarizado com emitters e listeners client-server"
       ],
-      "tags": ["EventEmitter"]
+      "tags": ["EventEmitter", "Angular", "Vue.js"]
     },
     {
       "title": "Aplicativos da Web progressivos",
@@ -142,7 +170,9 @@
         "Vue-Axios",
         "Vuetify",
         "Vue-Router",
-        "HTML5 and CSS"
+        "Postgresql",
+        "HTML5 and CSS",
+        "PWA"
       ]
     },
     {
@@ -159,7 +189,7 @@
         "Desenvolvimento de simulações básicas de encadeamento",
         "Understanding of Parallelism and Concurrency"
       ],
-      "tags": ["Concorrência"]
+      "tags": ["Concorrência", "Algoritmos"]
     },
     {
       "title": "Software Design Patterns",
@@ -176,17 +206,33 @@
         "Conclusão de todos os cursos universitários Java",
         "Desenvolvimento de uma GUI básica de jogo usando Swing"
       ],
-      "tags": ["Java", "Java Swing"]
+      "tags": ["Java", "Java Swing", "Spring", "Mysql"]
+    },
+    {
+      "title": "Spring",
+      "content": [
+        "Estude tenho conhecimento basico adquerido pelo curso que realizei",
+        "Feito crud completo usando autentificação JWT com oauth2"
+      ],
+      "tags": ["Java", "Java Swing", "Spring", "Mysql", "Rest"]
     },
     {
       "title": "Python",
       "content": ["Análise básica de números e programação de E/S de linha de comando"],
-      "tags": ["Python"]
+      "tags": ["Python", "Django", "MariaDB"]
     }
   ],
   "skills": [
     {
+      "title": "Angular",
+      "pressed": false
+    },
+    {
       "title": "Node.js",
+      "pressed": false
+    },
+    {
+      "title": "Docker-Composer",
       "pressed": false
     },
     {
@@ -230,19 +276,7 @@
       "pressed": false
     },
     {
-      "title": "REST",
-      "pressed": false
-    },
-    {
-      "title": "React",
-      "pressed": false
-    },
-    {
-      "title": "Redux",
-      "pressed": false
-    },
-    {
-      "title": "React Router",
+      "title": "Rest",
       "pressed": false
     },
     {
@@ -270,7 +304,7 @@
       "pressed": false
     },
     {
-      "title": "Google Material Design",
+      "title": "Material UI",
       "pressed": false
     },
     {
@@ -294,10 +328,6 @@
       "pressed": false
     },
     {
-      "title": "C",
-      "pressed": false
-    },
-    {
       "title": "Java",
       "pressed": false
     },
@@ -314,7 +344,7 @@
       "pressed": false
     },
     {
-      "title": "algoritmos",
+      "title": "Algoritmos",
       "pressed": false
     },
     {
@@ -331,13 +361,23 @@
 
       "techUsed": [
         {
-          "title": "Laravel",
+          "title": "Laravel full stack",
           "content": "Utilizou o framework  laravel com todos seu Design Patterns que oferece toda tecnologia básica por trás do projeto.",
           "show": false
         },
         {
           "title": "composer",
           "content": "Utilizado pela aplicação fornecendo um formato padrão para gerenciar dependências do software PHP.",
+          "show": false
+        },
+        {
+          "title": "Bootstrap",
+          "content": "Utilizado como framework de estilização de CSS.",
+          "show": false
+        },
+        {
+          "title": "Jquery",
+          "content": "Utilizado como lib jquery para manipular alguns elementos.",
           "show": false
         }
       ]
@@ -350,7 +390,7 @@
       "techUsed": [
         {
           "title": "Lumen",
-          "content": "Utilizou o framework  laravel com todos seu Design Patterns que oferece toda tecnologia básica por trás do projeto.",
+          "content": "Utiliza o micro framework  lumen no back com todos seu Design Patterns que oferece toda tecnologia básica por trás do projeto.",
           "show": false
         },
         {
@@ -366,7 +406,7 @@
         },
         {
           "title": "Vuex",
-          "content": "sa",
+          "content": "Gerenciameneto o estado da aplicação",
           "show": false
         },
         {
@@ -395,6 +435,11 @@
           "title": "Postgresql",
           "content": "Manipulação de banco de dados",
           "show": false
+        },
+        {
+          "title": "Docker",
+          "content": "Todas aplicação é gerenciada por container docker e docker-composer",
+          "show": false
         }
       ]
     }
@@ -404,19 +449,31 @@
       "title": "Estágio/ Desenvolvedor Web",
       "company": "Defensoria Pública da União",
       "date": "Junho 2019 - Presente",
-      "description": "Criando e mantido o sistema full stack",
+      "description": "Faço parte da equipe que realiza manutenção no sistema  do Concurso de Redação da DPU corregindo e criando novas feature.",
       "techUsed": [
         {
           "title": "Javascript/ES7",
           "content": "Familiazado com syntax"
         },
         {
-          "title": "Bootstrap",
+          "title": "Bootstrap 4",
           "content": "Framework  de CSS"
         },
         {
           "title": "Mysql",
           "content": "Manipulação de banco de dados"
+        },
+        {
+          "title": "Laravel",
+          "content": "Framework full stack"
+        },
+        {
+          "title": "jquery",
+          "content": "Usa um pouco da lib jquery"
+        },
+        {
+          "title": "Git",
+          "content": "Utiliza o versionamento de códico"
         }
       ]
     }
@@ -431,7 +488,7 @@
     "number": 1
   },
   {
-    "title": "Esperiêcias",
+    "title": "Experiêcias",
     "number": 2
   },
   {
