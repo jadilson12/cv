@@ -8,20 +8,6 @@
     <v-card flat v-for="item in bio.content" :key="item" class="transparent">
       <v-card-text class="no-space text-left" v-text="item"></v-card-text>
     </v-card>
-    <v-row class="justify-center">
-      <v-tooltip top>
-        <v-btn icon :href="bio.github" target="_blank" slot="activator" pa-0 ma-0>
-          <i class="fab fa-github"></i>
-        </v-btn>
-        <span>Veja meu perfil GitHub</span>
-      </v-tooltip>
-      <v-tooltip top>
-        <v-btn icon :href="bio.linkedin" target="_blank" slot="activator" pa-0 ma-0>
-          <i class="fab fa-linkedin"></i>
-        </v-btn>
-        <span>Veja meu perfil LinkedIn</span>
-      </v-tooltip>
-    </v-row>
   </v-container>
 </template>
 

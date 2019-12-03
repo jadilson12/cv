@@ -1,5 +1,5 @@
 {
-  "name": "cv-jbg",
+  "name": "cv-do-jadilson",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,8 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.8.2",
     "core-js": "^3.4.3",
+    "g": "^2.0.1",
+    "npm": "^6.13.1",
     "register-service-worker": "^1.6.2",
     "roboto-fontface": "*",
     "vue": "^2.6.10",

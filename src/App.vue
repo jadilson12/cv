@@ -21,6 +21,7 @@
         </v-layout>
       </v-container>
     </transition>
+    <footer-bar ></footer-bar>
   </v-app>
 </template>
 
@@ -29,6 +30,7 @@
     import EnterBar from './components/bar/EnterBar'
     import TitleBar from './components/bar/TitleBar'
     import PageShow from "./pages/PageShow";
+    import FooterBar from "./components/bar/FooterBar";
 
     export default {
         name: 'App',
@@ -36,7 +38,8 @@
             NameBar,
             EnterBar,
             TitleBar,
-            PageShow
+            PageShow,
+            FooterBar
         },
         data: () => ({
             no: "none",
